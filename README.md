@@ -10,7 +10,8 @@ Form processor is user-deployed cloud solution (we only provide the software and
 
 The solution is made of a few components, namely:
 
-* Local processor: a CGI script or a Node JS (or similar) component deployed with the actual site. This particular version of the solution assumes the site is deployed on an application server, or a web server capable of running a CGI script, such as Apache. 
+* The local processor: a CGI script or a Node JS (or similar) component deployed with the actual site. This particular
+ version of the solution assumes the site is deployed on an application server, or a web server capable of running a CGI script, such as Apache. 
 * API Gateway - is an existing AWS component, which requires configuration for the solution to work. 
 * Serverless Form Data Processor - is a custom component (Java). Deployable binaries, documentation and installation services are available, when the solution is purchased via Upwork. 
 * Serverless Authenticator - is a custom component (Java). Binaries and professional installation are available.
